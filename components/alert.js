@@ -31,6 +31,13 @@ export default function Alert({preview}) {
                 className="underline hover:text-success duration-200 transition-colors"
               >
                 available on GitHub
+              </a><br />
+              To access the graphiql tool click {' '}
+              <a
+                href={`https://graphql.contentful.com/content/v1/spaces/${process.env.CONTENTFUL_SPACE_ID}/explore?access_token=${process.env.CONTENTFUL_ACCESS_TOKEN}`}
+                className="underline hover:text-success duration-200 transition-colors"
+              >
+                here
               </a>
               .
             </>

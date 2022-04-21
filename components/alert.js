@@ -36,6 +36,7 @@ export default function Alert({preview}) {
               <a
                 href={`https://graphql.contentful.com/content/v1/spaces/${process.env.CONTENTFUL_SPACE_ID}/explore?access_token=${process.env.CONTENTFUL_ACCESS_TOKEN}`}
                 className="underline hover:text-success duration-200 transition-colors"
+                target='_blank'
               >
                 here
               </a>
